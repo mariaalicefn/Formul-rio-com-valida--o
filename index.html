@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="#" id="form">
+        <section class="contentprincipal">
+            <section class="img">
+                <img src="img/cadastro.png" alt="foto de cadastro">
+            </section>
+            <section class="content2">
+                <h1> CADASTRE-SE</h1>
+                <label for="name"> <strong> Nome completo:</strong></label>
+                <input type="text" id="name" name="input" placeholder="Digite seu nome">
+                <label for="email"><strong> Email:</strong></label>
+                <input type="text" id="email" name="input" placeholder="Digite seu email">
+                <label for="date"><strong> Data de Nascimento:</strong></label>
+                <input type="date" id="date" name="input">
+                <label for="senha"><strong> Senha:</strong></label>
+                <input type="password" id="senha" name="input" placeholder="Digite sua senha">
+                <label for="confirmSenha"><strong>Confirme sua senha:</strong></label>
+                <input type="password" id="confirmSenha" name="input" placeholder="Digite sua senha novamente">
+                <button type="Submit" id="confirmBtn"><strong>Enviar</strong></button>
+            </section>
+        </section>
+    </form>
+    <section id="myModal" class="modal">
+        <section class="modal-content">
+          <span class="close">&times;</span>
+          <p id="modalMessage"></p>
+        </section>
+    </section>
+    
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
